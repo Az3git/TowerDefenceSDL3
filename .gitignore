@@ -1,0 +1,42 @@
+# Скомпилированные объектные файлы
+*.o
+*.obj
+
+# Исполняемые файлы (exe, out, app и др.)
+*.exe
+*.out
+*.app
+
+# Сборочные каталоги
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Файлы временные и кэш компилятора
+*.log
+*.d
+*.gch
+*.pch
+
+# Файлы IDE
+*.sdf
+*.suo
+*.user
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.vscode/
+*.idea/
+
+# MacOS / Windows системные файлы
+.DS_Store
+Thumbs.db
+
+# CMake
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# SDL3
+SDL3
